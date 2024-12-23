@@ -1,13 +1,14 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
-import { ModeToggle } from "@/components/ui/modetoggle"
+import { TableDemo } from "@/components/project/Table"
 
 export default function Example() {
     return (
-        <div>
-            <p> This is an example of how the page _should_ theoretically look </p>
-            <Button> Based </Button>
+        <div className="w-screen">
+            <h1 className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl">
+                Invoices
+            </h1>
+            <TableDemo />
         </div>
     )
 }
